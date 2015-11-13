@@ -1,0 +1,14 @@
+<h2>Recipes</h2>
+
+{{#link-to "recipes.new"}}New recipe{{/link-to}}
+
+{{outlet}}
+
+<ul>
+  {{#each recipe in model}}
+    <li>
+      <p>{{recipe.title}}</p>
+      <p>{{recipe.body}}</p>
+    </li>
+  {{/each}}
+</ul>
