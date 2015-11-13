@@ -1,4 +1,4 @@
-== "Foodie" Blogging platform
+## "Foodie" Blogging platform
 
 * Repository for Rails API: https://github.com/juanroldan1989/foodie-blog-api
 
