@@ -5,4 +5,18 @@
 {{#link-to "recipes"}}Recipes{{/link-to}}
 {{#link-to "reviews"}}Reviews{{/link-to}}
 
+<ul>
+  {{#each activity_item in model}}
+    <li>
+      <p>
+        User {{activity_item.userId}} {{activity_item.actionType}}d
+        {{activity_item.resourceType}}: "{{activity_item.resourceTitle}}"
+        {{format-date activity_item.updatedAt}}
+      </p>
+    </li>
+  {{/each}}
+</ul>
+
+<hr>
+
 {{outlet}}
