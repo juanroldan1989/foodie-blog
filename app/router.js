@@ -15,6 +15,10 @@ Router.map(function() {
   this.resource("recipes", function() {
     this.route("new");
   });
+
+  this.resource("reviews", function() {
+      this.route("new");
+    });
 });
 
 export default Router;
