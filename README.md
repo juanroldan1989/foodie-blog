@@ -4,6 +4,14 @@
 
 -----------------------------------------------------------
 
+<b>Status Update</b>
+- Implemented support for Posts, Recipes and Reviews CRUD actions.
+- Fixtures setup for Posts, Recipes and Reviews. Prototyping purposes only.
+- Currently working on persisting data through API.
+- Test suite setup.
+
+-----------------------------------------------------------
+
 Currently researching on Ember CLI and EmberJS basics through links:
 
 * http://guides.emberjs.com/v2.1.0/getting-started/core-concepts/
