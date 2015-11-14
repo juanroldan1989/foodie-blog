@@ -1,0 +1,14 @@
+<h2>Reviews</h2>
+
+{{#link-to "reviews.new"}}New review{{/link-to}}
+
+{{outlet}}
+
+<ul>
+  {{#each review in model}}
+    <li>
+      <p>{{review.title}}</p>
+      <p>{{review.body}}</p>
+    </li>
+  {{/each}}
+</ul>
