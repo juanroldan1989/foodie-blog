@@ -1,14 +1,19 @@
 <h3>Recipes</h3>
 
-{{#link-to "recipes.new"}}New recipe{{/link-to}}
+{{#link-to "recipes.new"}}New{{/link-to}}
 
 {{outlet}}
+
+<hr>
 
 <ul>
   {{#each recipe in model}}
     <li>
-      <p>{{recipe.title}}</p>
-      <p>{{recipe.body}}</p>
+      <p>
+        {{#link-to "recipes.show" recipe.id}}
+          {{recipe.title}}
+        {{/link-to}}
+        by user <b>{{recipe.userId}}</b></p>
     </li>
   {{/each}}
 </ul>
