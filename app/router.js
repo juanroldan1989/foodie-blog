@@ -16,11 +16,15 @@ Router.map(function() {
 
   this.resource("recipes", function() {
     this.route("new");
+    this.route("show", { path: "/:recipe_id" });
+    this.route("edit", { path: "/:recipe_id/edit" });
   });
 
   this.resource("reviews", function() {
-      this.route("new");
-    });
+    this.route("new");
+    this.route("show", { path: "/:review_id" });
+    this.route("edit", { path: "/:review_id/edit" });
+  });
 });
 
 export default Router;
