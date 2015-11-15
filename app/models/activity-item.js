@@ -19,8 +19,8 @@ ActivityItem.reopenClass({
       resourceType:  "post",
       resourceId:    45,
       resourceTitle: "This is my first post in Foodie Blog!",
-      createdAt:     "",
-      updatedAt:     ""
+      createdAt:     "2015-05-27T12:54:01",
+      updatedAt:     "2015-05-27T12:54:01"
     },
     {
       id: 2,
@@ -29,8 +29,8 @@ ActivityItem.reopenClass({
       resourceType:  "recipe",
       resourceId:    22,
       resourceTitle: "The best pasta in town ragazzi!",
-      createdAt:     "",
-      updatedAt:     ""
+      createdAt:     "2015-05-27T12:54:01",
+      updatedAt:     "2015-06-27T12:54:01"
     },
     {
       id: 3,
@@ -39,8 +39,8 @@ ActivityItem.reopenClass({
       resourceType:  "review",
       resourceId:    11,
       resourceTitle: "My feelings after having lunch at Dunbar Hotel",
-      createdAt:     "",
-      updatedAt:     ""
+      createdAt:     "2015-05-27T12:54:01",
+      updatedAt:     "2015-05-27T12:54:01"
     },
     {
       id: 4,
@@ -49,8 +49,8 @@ ActivityItem.reopenClass({
       resourceType:  "post",
       resourceId:    10,
       resourceTitle: "What a wonderful post",
-      createdAt:     "",
-      updatedAt:     ""
+      createdAt:     "2015-05-27T12:54:01",
+      updatedAt:     "2015-09-27T12:54:01"
     },
     {
       id: 5,
@@ -59,8 +59,8 @@ ActivityItem.reopenClass({
       resourceType:  "recipe",
       resourceId:    33,
       resourceTitle: "This is the new title for my recipe",
-      createdAt:     "",
-      updatedAt:     ""
+      createdAt:     "2015-05-27T12:54:01",
+      updatedAt:     "2015-07-27T12:54:01"
     },
   ]
 });
