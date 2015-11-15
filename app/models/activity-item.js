@@ -1,10 +1,10 @@
 import DS from "ember-data";
 
 var ActivityItem = DS.Model.extend({
-  userId:         DS.attr("integer"),
+  userId:         DS.attr("number"),
   actionType:    DS.attr("string"),
   resourceType:  DS.attr("string"),
-  resourceId:    DS.attr("integer"),
+  resourceId:    DS.attr("number"),
   resourceTitle: DS.attr("string"),
   createdAt:     DS.attr("date"),
   updatedAt:     DS.attr("date")

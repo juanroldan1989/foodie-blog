@@ -1,9 +1,9 @@
 import DS from "ember-data";
 
 var Recipe = DS.Model.extend({
-  userId: DS.attr("integer"),
+  userId: DS.attr("number"),
   title: DS.attr("string"),
-  body: DS.attr("text")
+  body: DS.attr("string")
 });
 
 Recipe.reopenClass({
