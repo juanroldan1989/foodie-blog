@@ -17,10 +17,7 @@
 
 <div class="row">
   <div class="large-12 columns">
-    <div class="large-6 columns">
-      {{outlet}}
-    </div>
-    <div class="large-6 columns">
+    <div class="large-5 columns">
       <h3>Activity</h3>
       <ul>
         {{#each activity_item in model}}
@@ -33,6 +30,9 @@
           </li>
         {{/each}}
       </ul>
+    </div>
+    <div class="large-7 columns">
+      {{outlet}}
     </div>
   </div>
 </div>
