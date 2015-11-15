@@ -1,22 +1,39 @@
-<h1 id="title">Foodie blogging platform</h1>
+<div class="row">
+  <div class="large-12 columns">
+    <hr>
+    <div class="nav-bar right">
+      <ul class="button-group">
+        {{#link-to "home" class="button"}}Home{{/link-to}}
+        {{#link-to "posts" class="button"}}Posts{{/link-to}}
+        {{#link-to "recipes" class="button"}}Recipes{{/link-to}}
+        {{#link-to "reviews" class="button"}}Reviews{{/link-to}}
+      </ul>
+    </div>
 
-{{#link-to "home"}}Home{{/link-to}}
-{{#link-to "posts"}}Posts{{/link-to}}
-{{#link-to "recipes"}}Recipes{{/link-to}}
-{{#link-to "reviews"}}Reviews{{/link-to}}
+    <h1 id="title">Foodie blogging platform</h1>
+    <hr>
+  </div>
+</div>
 
-<ul>
-  {{#each activity_item in model}}
-    <li>
-      <p>
-        User {{activity_item.userId}} {{activity_item.actionType}}d
-        {{activity_item.resourceType}}: "{{activity_item.resourceTitle}}"
-        {{format-date activity_item.updatedAt}}
-      </p>
-    </li>
-  {{/each}}
-</ul>
+<div class="row">
+  <div class="large-12 columns">
+    <div class="large-6 columns">
+      {{outlet}}
+    </div>
+    <div class="large-6 columns">
+      <h3>Activity</h3>
+      <ul>
+        {{#each activity_item in model}}
+          <li>
+            <p>
+              User {{activity_item.userId}} {{activity_item.actionType}}d
+              {{activity_item.resourceType}}: "{{activity_item.resourceTitle}}"
+              {{format-date activity_item.updatedAt}}
+            </p>
+          </li>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+</div>
 
-<hr>
-
-{{outlet}}
