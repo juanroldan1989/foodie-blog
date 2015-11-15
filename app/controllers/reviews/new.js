@@ -9,7 +9,17 @@ export default Ember.Controller.extend({
         body: this.get("body")
       });
 
-      review.save();
+      var self = this;
+
+      var onSuccess = function() {
+        self.transitionToRoute("reviews");
+      };
+
+      var onFail = function(review) {
+        // deal with the failure here
+      };
+
+      review.save().then(onSuccess, onFail);
 
       this.setProperties({
         title: "",
