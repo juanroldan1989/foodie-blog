@@ -9,7 +9,7 @@
 - Fixtures setup for Posts, Recipes, Reviews and ActivityItems. Prototyping purposes only.
 - ActivityItems listed in application layout.
 - Test suite setup.
-- Next step: Persist data through API and implement CSS Framework like "Foundation".
+- Next step: Persist data through API.
 
 -----------------------------------------------------------
 
