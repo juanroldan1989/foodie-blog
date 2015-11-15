@@ -3,5 +3,5 @@
 <div>
   <p>{{input type="text" value=model.title}}</p>
   <p>{{textarea type="text" value=model.body rows="4" cols="50"}}</p>
-  <button {{action "updatePost"}} class="submit">Update</button>
+  <button {{action "updatePost" this}} class="submit">Update</button>
 </div>
