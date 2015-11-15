@@ -6,9 +6,10 @@
 
 <b>Status Update</b>
 - Implemented support for Posts, Recipes and Reviews CRUD actions.
-- Fixtures setup for Posts, Recipes and Reviews. Prototyping purposes only.
-- Currently working on persisting data through API.
+- Fixtures setup for Posts, Recipes, Reviews and ActivityItems. Prototyping purposes only.
+- ActivityItems listed in application layout.
 - Test suite setup.
+- Next step: Persist data through API and implement CSS Framework like "Foundation".
 
 -----------------------------------------------------------
 
