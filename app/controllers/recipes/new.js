@@ -4,7 +4,7 @@ export default Ember.Controller.extend({
   actions: {
     createRecipe: function() {
       var recipe = this.store.createRecord("recipe", {
-        userId: 4, //TODO: replace with current_user's ID
+        user_id: 4, //TODO: replace with current_user's ID
         title: this.get("title"),
         body: this.get("body")
       });
@@ -12,14 +12,14 @@ export default Ember.Controller.extend({
       var self = this;
 
       var onSuccess = function() {
-        self.transitionToRoute("posts");
+        self.transitionToRoute("recipes");
       };
 
-      var onFail = function(post) {
+      var onFail = function(recipe) {
         // deal with the failure here
       };
 
-      post.save().then(onSuccess, onFail);
+      recipe.save().then(onSuccess, onFail);
 
       this.setProperties({
         title: "",

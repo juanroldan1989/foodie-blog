@@ -4,7 +4,7 @@ export default Ember.Controller.extend({
   actions: {
     createPost: function() {
       var post = this.store.createRecord("post", {
-        userId: 1, //TODO: replace with current_user's ID
+        user_id: 1, //TODO: replace with current_user's ID
         title: this.get("title"),
         body: this.get("body")
       });
