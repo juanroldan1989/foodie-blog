@@ -4,10 +4,6 @@ import DS from "ember-data";
 export default DS.FixtureAdapter.extend();
 
 // For real interaction with API
-export default DS.RESTAdapter.extend({
-  // host: "http://localhost:5000"
-  // headers: {
-  //   'API_KEY': 'secret key',
-  //   'ANOTHER_HEADER': 'Some header value'
-  // }
-});
+// export default DS.RESTAdapter.extend({
+//   host: "http://localhost:5000"
+// });
