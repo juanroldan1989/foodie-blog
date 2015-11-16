@@ -14,6 +14,13 @@
 
 -----------------------------------------------------------
 
+<b>Future improvements to be done once more knowledge of the framework is gained</b>
+- Work with components to DRY-up a little bit templates and controllers.
+- Setup a validation workflow that can be implemented across models on CRUD actions being performed.
+- Setup partials to be shared across templates, avoiding code duplication.
+- Setup some helpers inside templates to format dates properly.
+-----------------------------------------------------------
+
 Currently researching on Ember CLI and EmberJS basics through links:
 
 * http://guides.emberjs.com/v2.1.0/getting-started/core-concepts/
