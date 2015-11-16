@@ -1,13 +1,13 @@
 import DS from "ember-data";
 
 var ActivityItem = DS.Model.extend({
-  userId:         DS.attr("number"),
-  actionType:    DS.attr("string"),
-  resourceType:  DS.attr("string"),
-  resourceId:    DS.attr("number"),
-  resourceTitle: DS.attr("string"),
-  createdAt:     DS.attr("date"),
-  updatedAt:     DS.attr("date")
+  user_id:         DS.attr("number"),
+  action_type:    DS.attr("string"),
+  resource_type:  DS.attr("string"),
+  resource_id:    DS.attr("number"),
+  resource_title: DS.attr("string"),
+  created_at:     DS.attr("date"),
+  updated_at:     DS.attr("date")
 });
 
 ActivityItem.reopenClass({
@@ -15,52 +15,52 @@ ActivityItem.reopenClass({
     {
       id: 1,
       userId: 1,
-      actionType:    "create",
-      resourceType:  "post",
-      resourceId:    45,
-      resourceTitle: "This is my first post in Foodie Blog!",
-      createdAt:     "2015-05-27T12:54:01",
-      updatedAt:     "2015-05-27T12:54:01"
+      action_type:    "create",
+      resource_type:  "post",
+      resource_id:    45,
+      resource_title: "This is my first post in Foodie Blog!",
+      created_at:     "2015-05-27T12:54:01",
+      updated_at:     "2015-05-27T12:54:01"
     },
     {
       id: 2,
       userId: 32,
-      actionType:    "update",
-      resourceType:  "recipe",
-      resourceId:    22,
-      resourceTitle: "The best pasta in town ragazzi!",
-      createdAt:     "2015-05-27T12:54:01",
-      updatedAt:     "2015-06-27T12:54:01"
+      action_type:    "update",
+      resource_type:  "recipe",
+      resource_id:    22,
+      resource_title: "The best pasta in town ragazzi!",
+      created_at:     "2015-05-27T12:54:01",
+      updated_at:     "2015-06-27T12:54:01"
     },
     {
       id: 3,
       userId: 15,
-      actionType:    "create",
-      resourceType:  "review",
-      resourceId:    11,
-      resourceTitle: "My feelings after having lunch at Dunbar Hotel",
-      createdAt:     "2015-05-27T12:54:01",
-      updatedAt:     "2015-05-27T12:54:01"
+      action_type:    "create",
+      resource_type:  "review",
+      resource_id:    11,
+      resource_title: "My feelings after having lunch at Dunbar Hotel",
+      created_at:     "2015-05-27T12:54:01",
+      updated_at:     "2015-05-27T12:54:01"
     },
     {
       id: 4,
       userId: 89,
-      actionType:    "delete",
-      resourceType:  "post",
-      resourceId:    10,
-      resourceTitle: "What a wonderful post",
-      createdAt:     "2015-05-27T12:54:01",
-      updatedAt:     "2015-09-27T12:54:01"
+      action_type:    "delete",
+      resource_type:  "post",
+      resource_id:    10,
+      resource_title: "What a wonderful post",
+      created_at:     "2015-05-27T12:54:01",
+      updated_at:     "2015-09-27T12:54:01"
     },
     {
       id: 5,
       userId: 19,
-      actionType:    "update",
-      resourceType:  "recipe",
-      resourceId:    33,
-      resourceTitle: "This is the new title for my recipe",
-      createdAt:     "2015-05-27T12:54:01",
-      updatedAt:     "2015-07-27T12:54:01"
+      action_type:    "update",
+      resource_type:  "recipe",
+      resource_id:    33,
+      resource_title: "This is the new title for my recipe",
+      created_at:     "2015-05-27T12:54:01",
+      updated_at:     "2015-07-27T12:54:01"
     },
   ]
 });
