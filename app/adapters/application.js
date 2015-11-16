@@ -7,6 +7,8 @@ export default DS.FixtureAdapter.extend();
 // export default DS.RESTAdapter.extend({
 //   host: "http://localhost:5000",
 //   pathForType: function(type) {
-//     return Ember.String.underscore(type) + "s";
+//     var underscored = Ember.String.underscore(type);
+
+//     return Ember.String.pluralize(underscored);
 //   }
 // });
