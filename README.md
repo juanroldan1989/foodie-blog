@@ -19,6 +19,7 @@
 - Setup a validation workflow that can be implemented across models on CRUD actions being performed.
 - Setup partials to be shared across templates, avoiding code duplication.
 - Setup some helpers inside templates to format dates properly.
+
 -----------------------------------------------------------
 
 Currently researching on Ember CLI and EmberJS basics through links:
@@ -56,6 +57,7 @@ You will need the following things properly installed on your computer.
 
 * `ember server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
+* To enable/disable interaction with API, please refer to `app/adapters/application.js` file for instructions.
 
 ### Code Generators
 
