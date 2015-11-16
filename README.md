@@ -15,7 +15,7 @@
 -----------------------------------------------------------
 
 <b>Future improvements to be done once more knowledge of the framework is gained</b>
-- Work with components to DRY-up a little bit templates and controllers.
+- Work with components to DRY-up a little bit templates and controllers: https://www.twilio.com/blog/2015/09/creating-web-components-in-emberjs.html
 - Setup a validation workflow that can be implemented across models on CRUD actions being performed.
 - Setup partials to be shared across templates, avoiding code duplication.
 - Setup some helpers inside templates to format dates properly.
