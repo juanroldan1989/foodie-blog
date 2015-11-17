@@ -19,17 +19,13 @@
   <div class="large-12 columns">
     <div class="large-5 columns">
       <h3>Activity</h3>
-      <ul>
-        {{#each activity_item in model}}
-          <li>
-            <p>
-              User {{activity_item.user_id}} {{activity_item.action_type}}d
-              {{activity_item.resource_type}} <b>{{activity_item.resource_title}}</b>
-              {{format-date activity_item.updated_at}}
-            </p>
-          </li>
-        {{/each}}
-      </ul>
+      {{#each activity_item in model}}
+        <p class="panel">
+          User <b>{{activity_item.user_id}}</b> {{activity_item.action_type}}d
+          {{activity_item.resource_type}} <b>{{activity_item.resource_title}}</b>
+          {{format-date activity_item.updated_at}}
+        </p>
+      {{/each}}
     </div>
     <div class="large-7 columns">
       {{outlet}}
