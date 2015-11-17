@@ -1,7 +1,10 @@
 <hr>
 
-<div>
-  <p>"{{model.title}}" by user <b>{{model.user_id}}</b></p>
+<div class="panel">
+  <p><i>"{{model.title}}"</i> by user <b>{{model.user_id}}</b></p>
   <p>{{model.body}}</p>
-  <p>{{#link-to "posts.edit" model.id}}Edit{{/link-to}}</p>
+  <p>
+    {{#link-to "posts.edit" model.id class="button"}}Edit{{/link-to}}
+    <button {{action "deletePost" this}} class="submit">Delete</button>
+  </p>
 </div>
