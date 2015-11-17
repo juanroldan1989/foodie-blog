@@ -14,7 +14,7 @@ ActivityItem.reopenClass({
   FIXTURES: [
     {
       id: 1,
-      userId: 1,
+      user_id: 1,
       action_type:    "create",
       resource_type:  "post",
       resource_id:    45,
@@ -24,7 +24,7 @@ ActivityItem.reopenClass({
     },
     {
       id: 2,
-      userId: 32,
+      user_id: 32,
       action_type:    "update",
       resource_type:  "recipe",
       resource_id:    22,
@@ -34,7 +34,7 @@ ActivityItem.reopenClass({
     },
     {
       id: 3,
-      userId: 15,
+      user_id: 15,
       action_type:    "create",
       resource_type:  "review",
       resource_id:    11,
@@ -44,7 +44,7 @@ ActivityItem.reopenClass({
     },
     {
       id: 4,
-      userId: 89,
+      user_id: 89,
       action_type:    "delete",
       resource_type:  "post",
       resource_id:    10,
@@ -54,7 +54,7 @@ ActivityItem.reopenClass({
     },
     {
       id: 5,
-      userId: 19,
+      user_id: 19,
       action_type:    "update",
       resource_type:  "recipe",
       resource_id:    33,
