@@ -10,7 +10,7 @@
 - ActivityItems listed in application layout.
 - Test suite setup.
 - Persisting data through API
-- Next step: setup authentication workflow.
+- Currently working on authentication workflow: https://auth0.com/blog/2015/08/11/create-your-first-ember-2-dot-0-app-from-authentication-to-calling-an-api/
 
 -----------------------------------------------------------
 
@@ -22,7 +22,7 @@
 
 -----------------------------------------------------------
 
-Currently researching on Ember CLI and EmberJS basics through links:
+Research links:
 
 * http://guides.emberjs.com/v2.1.0/getting-started/core-concepts/
 
