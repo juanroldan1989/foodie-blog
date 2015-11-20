@@ -22,20 +22,6 @@
 
 -----------------------------------------------------------
 
-Research links:
-
-* http://guides.emberjs.com/v2.1.0/getting-started/core-concepts/
-
-* https://github.com/ember-cli/ember-cli
-
-* "Ember JS - Core Concepts" - http://guides.emberjs.com/v2.1.0/getting-started/core-concepts/
-
-* "RailsConf 2015 - Rails and EmberCLI: an integration love story" - https://www.youtube.com/watch?v=NnquHUlh0Pk
-
-* "Building Custom Apps with EmberCLI" - https://www.youtube.com/watch?v=J6vPwvFdUiE
-
------------------------------------------------------------
-
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
@@ -81,6 +67,10 @@ Specify what it takes to deploy your app.
 
 * [ember.js](http://emberjs.com/)
 * [ember-cli](http://www.ember-cli.com/)
+* "Ember JS - Core Concepts" - http://guides.emberjs.com/v2.1.0/getting-started/core-concepts/
+* "RailsConf 2015 - Rails and EmberCLI: an integration love story" - https://www.youtube.com/watch?v=NnquHUlh0Pk
+* "Building Custom Apps with EmberCLI" - https://www.youtube.com/watch?v=J6vPwvFdUiE
+
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
