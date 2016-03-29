@@ -1,6 +1,16 @@
 ## "Foodie" Blogging platform
 
-* Repository for Rails API: https://github.com/juanroldan1989/foodie-blog-api
+EmberJS app to manage cooking recipes and reviews, interacting with a Rails API: https://github.com/juanroldan1989/foodie-blog-api
+
+Live EmberJS App: https://foodie-blog.herokuapp.com
+
+EmberJS App: https://foodie-blog.herokuapp.com/        - Rails API: https://foodie-blog-api.herokuapp.com/v1/activity_items
+
+EmberJS App: https://foodie-blog.herokuapp.com/posts   - Rails API: https://foodie-blog-api.herokuapp.com/v1/posts
+
+EmberJS App: https://foodie-blog.herokuapp.com/recipes - Rails API: https://foodie-blog-api.herokuapp.com/v1/recipes
+
+EmberJS App: https://foodie-blog.herokuapp.com/reviews - Rails API: https://foodie-blog-api.herokuapp.com/v1/reviews
 
 -----------------------------------------------------------
 
@@ -14,7 +24,7 @@
 
 -----------------------------------------------------------
 
-<b>Future improvements to be done once more knowledge of the framework is gained</b>
+<b>Work in progress</b>
 - Work with components to DRY-up a little bit templates and controllers: https://www.twilio.com/blog/2015/09/creating-web-components-in-emberjs.html
 - Setup a validation workflow that can be implemented across models on CRUD actions being performed.
 - Setup partials to be shared across templates, avoiding code duplication.
@@ -61,7 +71,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+* Heroku Buildpack for ember-cli: https://github.com/tonycoco/heroku-buildpack-ember-cli
 
 ## Further Reading / Useful Links
 
