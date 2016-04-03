@@ -2,7 +2,9 @@
 
 EmberJS app to manage cooking recipes and reviews, interacting with a Rails API: https://github.com/juanroldan1989/foodie-blog-api
 
-Live EmberJS App: https://foodie-blog.herokuapp.com
+-----------------------------------------------------------
+
+<b>Live App</b>
 
 EmberJS App: https://foodie-blog.herokuapp.com/        - Rails API: https://foodie-blog-api.herokuapp.com/v1/activity_items
 
