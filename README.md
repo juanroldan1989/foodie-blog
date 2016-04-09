@@ -1,4 +1,4 @@
-<div align="center">
+<div align="left">
   <a href="https://github.com/juanroldan1989/foodie-blog-api"><img width="300" src="https://github.com/juanroldan1989/foodie-blog-api/raw/master/app/assets/images/icon.png" alt="foodie blog logo" /></a>
 </div>
 
