@@ -1,10 +1,12 @@
-## "Foodie" Blogging platform
+<div align="center">
+  <a href="https://github.com/juanroldan1989/foodie-blog-api"><img width="300" src="https://github.com/juanroldan1989/foodie-blog-api/raw/master/app/assets/images/icon.png" alt="foodie blog logo" /></a>
+</div>
+
+# "Foodie" Blogging platform
 
 EmberJS app to manage cooking recipes and reviews, interacting with a Rails API: https://github.com/juanroldan1989/foodie-blog-api
 
------------------------------------------------------------
-
-<b>Live App</b>
+## Live App
 
 EmberJS App: https://foodie-blog.herokuapp.com/        - Rails API: https://foodie-blog-api.herokuapp.com/v1/activity_items
 
@@ -14,9 +16,7 @@ EmberJS App: https://foodie-blog.herokuapp.com/recipes - Rails API: https://food
 
 EmberJS App: https://foodie-blog.herokuapp.com/reviews - Rails API: https://foodie-blog-api.herokuapp.com/v1/reviews
 
------------------------------------------------------------
-
-<b>Status Update</b>
+## Summary
 - Implemented support for Posts, Recipes and Reviews CRUD actions.
 - Fixtures setup for Posts, Recipes, Reviews and ActivityItems. Prototyping purposes only.
 - ActivityItems listed in application layout.
@@ -24,15 +24,6 @@ EmberJS App: https://foodie-blog.herokuapp.com/reviews - Rails API: https://food
 - Persisting data through API
 - Currently working on authentication workflow: https://auth0.com/blog/2015/08/11/create-your-first-ember-2-dot-0-app-from-authentication-to-calling-an-api/
 
------------------------------------------------------------
-
-<b>Work in progress</b>
-- Work with components to DRY-up a little bit templates and controllers: https://www.twilio.com/blog/2015/09/creating-web-components-in-emberjs.html
-- Setup a validation workflow that can be implemented across models on CRUD actions being performed.
-- Setup partials to be shared across templates, avoiding code duplication.
-- Setup some helpers inside templates to format dates properly.
-
------------------------------------------------------------
 
 ## Prerequisites
 
